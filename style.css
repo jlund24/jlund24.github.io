@@ -1,1 +1,50 @@
 
+#contact-info {
+    margin: 20px 10px;
+}
+
+#key-info {
+    margin: 20px 10px;
+}
+
+#name {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 40pt;
+    
+}
+
+#profile-pic {
+  max-width: 200px;
+  margin: 20px 10px;
+}
+
+.about-info-item {
+    font-size: 14pt;
+}
+
+.contact-icon {
+    width: 20px;
+    height: 20px;
+    margin-right: 5px;
+    color: black;
+    text-decoration: none;
+}
+
+.contact-info-item {
+    font-size: 12pt;
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: flex-start;
+}
+
+.my-header {
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+}
+
+.section-header {
+    font-size: 18pt;
+}
+
+
