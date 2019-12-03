@@ -1,6 +1,7 @@
-
 #contact-info {
-    margin: 20px 10px;
+  
+    margin-right: 20px;
+    margin-left: 10px;
 }
 
 #key-info {
@@ -14,8 +15,8 @@
 }
 
 #profile-pic {
-  max-width: 200px;
-  margin: 20px 10px;
+    max-width: 200px;
+    margin: 20px 10px;
 }
 
 .about-info-item {
@@ -31,15 +32,32 @@
 }
 
 .contact-info-item {
-    font-size: 12pt;
     display: flex;
     flex-flow: row nowrap;
-    align-items: flex-start;
+    align-items: center;
+    margin-bottom: 5px;
+}
+
+.contact-info-item-text {
+    font-size: 12pt;
+    margin: 0px;
+    padding: 0px;
+}
+
+.content-body {
+    margin-left: 10px;
+}
+
+.header-left {
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
 }
 
 .my-header {
     display: flex;
     flex-flow: row wrap;
+    justify-content: space-between;
     align-items: center;
 }
 
